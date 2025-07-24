@@ -4,7 +4,7 @@ This repository documents my structured study of Data Structures, Algorithms, an
 
 The primary roadmap is based on [Striver's A2Z DSA Course Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2).
 
-![Progress](https://img.shields.io/badge/Progress-3%2F62-red?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Progress-4%2F62-red?style=for-the-badge)
 
 ---
 
@@ -22,7 +22,7 @@ The primary roadmap is based on [Striver's A2Z DSA Course Sheet](https://takeufo
 - [x] **1.1** Things to Know in C++/Java/Python or any language
 - [x] **1.2** Build-up Logical Thinking (Pattern Problems)
 - [x] **1.3** C++ STL / Core Language Features
-- [ ] **1.4** Know Basic Maths
+- [x] **1.4** Know Basic Maths
 - [ ] **1.5** Learn Basic Recursion
 - [ ] **1.6** Learn Basic Hashing
 
