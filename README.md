@@ -50,6 +50,7 @@ The primary roadmap is based on [Striver's A2Z DSA Course Sheet](https://takeufo
 - [ ] **6.3** Medium Problems on Linked List
 - [ ] **6.4** Medium Problems on Doubly Linked List
 - [ ] **6.5** Hard Problems on Linked List
+- TODO: Implement hash-map using Arrays with division-method once LL is done.
 
 ### **Step 7: Recursion**
 - [ ] **7.1** Recursion Problems (Get a strong hold)
