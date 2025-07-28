@@ -52,6 +52,24 @@ void bubbleSort(vector<int>& arr, int n) {
   }
 }
 
+void bubbleSortRecursive(vector<int>& arr, int n, int round = 0) {
+  if (round == n - 1) return;
+
+  bool swapped = false;
+  for (int i = 0; i < n - round - 1; i++) {
+    if (arr[i] > arr[i + 1]) {
+      swap(arr[i], arr[i + 1]);
+      swapped = true;
+    }
+  }
+
+  if (!swapped) {
+    return;
+  }
+
+  bubbleSortRecursive(arr, n, round + 1);
+}
+
 int main() {
   int t;
   cin >> t;
@@ -66,6 +84,8 @@ int main() {
     printArr(arr);
 
     bubbleSort(arr, n);
+    // Uncomment the line below to use the recursive version.
+    // bubbleSortRecursive(arr, n);
 
     cout << "Sorted array: ";
     printArr(arr);
