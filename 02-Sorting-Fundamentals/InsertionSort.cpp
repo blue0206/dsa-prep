@@ -45,6 +45,18 @@ void insertionSort(vector<int>& arr, int n) {
   }
 }
 
+void insertionSortRecursive(vector<int>& arr, int n, int targetIndex = 1) {
+  if (targetIndex == n) return;
+
+  for (int i = targetIndex; i > 0; i--) {
+    if (arr[i] < arr[i - 1]) {
+      swap(arr[i], arr[i - 1]);
+    }
+  }
+
+  insertionSortRecursive(arr, n, targetIndex + 1);
+}
+
 int main() {
   int t;
   cin >> t;
@@ -59,6 +71,8 @@ int main() {
     printArr(arr);
 
     insertionSort(arr, n);
+    // Uncomment the line below to use the recursive version.
+    // insertionSortRecursive(arr, n);
 
     cout << "Sorted array: ";
     printArr(arr);
