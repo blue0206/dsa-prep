@@ -4,7 +4,7 @@ This repository documents my structured study of Data Structures, Algorithms, an
 
 The primary roadmap is based on [Striver's A2Z DSA Course Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2).
 
-![Progress](https://img.shields.io/badge/Progress-9.68%25_(6%2F62)-red?style=for-the-badge)  
+![Progress](https://img.shields.io/badge/Progress-11.29%25_(7%2F62)-red?style=for-the-badge)  
 
 ---
 
@@ -27,7 +27,7 @@ The primary roadmap is based on [Striver's A2Z DSA Course Sheet](https://takeufo
 - [x] **1.6** Learn Basic Hashing
 
 ### **Step 2: Sorting Fundamentals**
-- [ ] **2.1** Sorting-I
+- [x] **2.1** Sorting-I
 - [ ] **2.2** Sorting-II
 
 ### **Step 3: Arrays**
