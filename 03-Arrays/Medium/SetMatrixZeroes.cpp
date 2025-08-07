@@ -65,24 +65,38 @@ int main() {
       }
     }
 
+    cout << "Matrix: [ ";
+    for (int i = 0; i < matrix.size(); i++) {
+      cout << "[ ";
+      for (int j = 0; j < matrix[i].size(); j++) {
+        cout << matrix[i][j] << " ";
+      }
+      cout << "] ";
+    }
+    cout << "]" << endl;
+
     vector<vector<int>> bruteForceApproachArr = matrix;
     vector<vector<int>> optimalApproachArr = matrix;
 
     bruteForceApproach(bruteForceApproachArr);
     cout << "Brute-Force Approach: [ ";
     for (int i = 0; i < bruteForceApproachArr.size(); i++) {
+      cout << "[ ";
       for (int j = 0; j < bruteForceApproachArr[i].size(); j++) {
         cout << bruteForceApproachArr[i][j] << " ";
       }
+      cout << "] ";
     }
     cout << "]" << endl;
 
     optimalApproach(optimalApproachArr);
     cout << "Optimal Approach: [ ";
     for (int i = 0; i < optimalApproachArr.size(); i++) {
+      cout << "[ ";
       for (int j = 0; j < optimalApproachArr[i].size(); j++) {
         cout << optimalApproachArr[i][j] << " ";
       }
+      cout << "] ";
     }
     cout << "]" << endl;
 
