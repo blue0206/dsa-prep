@@ -4,7 +4,7 @@ This repository documents my structured study of Data Structures, Algorithms, an
 
 The primary roadmap is based on [Striver's A2Z DSA Course Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2).
 
-![Progress](https://img.shields.io/badge/Progress-14.5%25_(9%2F62)-red?style=for-the-badge)  
+![Progress](https://img.shields.io/badge/Progress-16%25_(10%2F62)-red?style=for-the-badge)  
 
 ---
 
@@ -32,7 +32,7 @@ The primary roadmap is based on [Striver's A2Z DSA Course Sheet](https://takeufo
 
 ### **Step 3: Arrays**
 - [x] **3.1** Easy
-- [ ] **3.2** Medium
+- [x] **3.2** Medium
 - [ ] **3.3** Hard
 
 ### **Step 4: Binary Search**
