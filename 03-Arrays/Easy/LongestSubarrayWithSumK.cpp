@@ -28,8 +28,9 @@ int approach1(vector<int>& nums, int k);
  *           and its first corresponding index. We iterate through the array,
  *           calculating the prefix sum `pSum` at each index `i`. For a subarray
  *           to sum to `k`, there must be a previous prefix sum `pSum - k`. If
- * we find `pSum - k` in our map at an index `j`, the subarray from `j+1` to `i`
- * has a sum of `k`. We update our max length with `i - j`.
+ *           we find `pSum - k` in our map at an index `j`, the subarray from
+ *           `j+1` to `i` has a sum of `k`. We update our max length with
+ *           `i - j`.
  *
  * This is the OPTIMAL approach for arrays with positives, negatives, and zeros.
  *
