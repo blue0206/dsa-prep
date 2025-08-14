@@ -106,7 +106,7 @@ int mergeAndCount(vector<int>& nums, int start, int mid, int end) {
     rightNums[rightIndex++] = nums[i];
   }
 
-  // Merge the two temnporary arrays into the main array in
+  // Merge the two temporary arrays into the main array in
   // sorted manner.
   leftIndex = 0;
   rightIndex = 0;
