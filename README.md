@@ -4,7 +4,7 @@ This repository documents my structured study of Data Structures, Algorithms, an
 
 The primary roadmap is based on [Striver's A2Z DSA Course Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2).
 
-![Progress](https://img.shields.io/badge/Progress-22%25_(14%2F62)-red?style=for-the-badge)  
+![Progress](https://img.shields.io/badge/Progress-25.8%25_(16%2F62)-red?style=for-the-badge)  
 
 ---
 
@@ -41,8 +41,8 @@ The primary roadmap is based on [Striver's A2Z DSA Course Sheet](https://takeufo
 - [x] **4.3** Binary Search on 2D Arrays
 
 ### **Step 5: Strings [Basic and Medium]**
-- [ ] **5.1** Easy Problems
-- [ ] **5.2** Medium Problems
+- [x] **5.1** Easy Problems
+- [x] **5.2** Medium Problems
 
 ### **Step 6: Linked Lists**
 - [ ] **6.1** Linked List
