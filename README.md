@@ -4,7 +4,7 @@ This repository documents my structured study of Data Structures, Algorithms, an
 
 The primary roadmap is based on [Striver's A2Z DSA Course Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2).
 
-![Progress](https://img.shields.io/badge/Progress-33.9%25_(21%2F62)-red?style=for-the-badge)  
+![Progress](https://img.shields.io/badge/Progress-38%25_(23%2F61)-red?style=for-the-badge)  
 
 ---
 
@@ -53,10 +53,9 @@ The primary roadmap is based on [Striver's A2Z DSA Course Sheet](https://takeufo
 - TODO: Implement hash-map using Arrays with division-method.
 
 ### **Step 7: Recursion**
-- [ ] **7.1** Recursion Problems (Get a strong hold)
-- [ ] **7.2** Subsequences Pattern
-- [ ] **7.3** All kinds of combinations
-- [ ] **7.4** Hard Recursion Problems
+- [x] **7.1** Recursion Problems (Get a strong hold)
+- [x] **7.2** Subsequences Pattern
+- [ ] **7.3** Hard Recursion Problems
 
 ### **Step 8: Bit Manipulation**
 - [ ] **8.1** Learn Bit Manipulation
