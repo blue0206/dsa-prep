@@ -4,7 +4,7 @@ This repository documents my structured study of Data Structures, Algorithms, an
 
 The primary roadmap is based on [Striver's A2Z DSA Course Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2).
 
-![Progress](https://img.shields.io/badge/Progress-39%25_(24%2F61)-red?style=for-the-badge)  
+![Progress](https://img.shields.io/badge/Progress-44%25_(27%2F61)-red?style=for-the-badge)  
 
 ---
 
@@ -58,9 +58,9 @@ The primary roadmap is based on [Striver's A2Z DSA Course Sheet](https://takeufo
 - [x] **7.3** Hard Recursion Problems
 
 ### **Step 8: Bit Manipulation**
-- [ ] **8.1** Learn Bit Manipulation
-- [ ] **8.2** Interview Problems on Bit Manipulation
-- [ ] **8.3** Advanced Maths
+- [x] **8.1** Learn Bit Manipulation
+- [x] **8.2** Interview Problems on Bit Manipulation
+- [x] **8.3** Advanced Maths
 
 ### **Step 9: Stacks & Queues**
 - [ ] **9.1** Learn Stacks & Queues
