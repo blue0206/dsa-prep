@@ -1,5 +1,6 @@
 /*
  * Problem: Colliders (Codeforces Div. 1 #154B)
+ * Rating: 1600
  * Link: https://codeforces.com/problemset/problem/154/B
  *
  * Approach: The problem requires checking for conflicts when turning on

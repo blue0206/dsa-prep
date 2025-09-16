@@ -1,5 +1,6 @@
 /*
  * Problem: Almost Prime (Codeforces Beta Round #26A)
+ * Rating: 900
  * Link: https://codeforces.com/contest/26/problem/A
  *
  * Approach: An "almost prime" number is a positive integer that has exactly

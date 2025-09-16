@@ -1,5 +1,6 @@
 /*
  * Problem: Rock and Lever (Codeforces Div. 2 #1420B)
+ * Rating: 1200
  * Link: https://codeforces.com/problemset/problem/1420/B
  *
  * Approach: The problem asks for the number of pairs (i, j) with i < j such

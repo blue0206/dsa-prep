@@ -1,5 +1,6 @@
 /*
  * Problem: Beautiful Numbers (Codeforces Div. 2 #300C)
+ * Rating: 1800
  * Link: https://codeforces.com/problemset/problem/300/C
  *
  * Approach: This is a combinatorial problem. A number is "beautiful" if it
