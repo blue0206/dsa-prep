@@ -4,7 +4,7 @@ This repository documents my structured study of Data Structures, Algorithms, an
 
 The primary roadmap is based on [Striver's A2Z DSA Course Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2).
 
-![Progress](https://img.shields.io/badge/Progress-44%25_(27%2F61)-red?style=for-the-badge)  
+![Progress](https://img.shields.io/badge/Progress-50.8%25_(31%2F61)-red?style=for-the-badge)  
 
 ---
 
@@ -63,10 +63,10 @@ The primary roadmap is based on [Striver's A2Z DSA Course Sheet](https://takeufo
 - [x] **8.3** Advanced Maths
 
 ### **Step 9: Stacks & Queues**
-- [ ] **9.1** Learn Stacks & Queues
-- [ ] **9.2** Prefix, Infix, Postfix Conversion Problems
-- [ ] **9.3** Monotonic Stack/Queue Problems
-- [ ] **9.4** Implementation Problems
+- [x] **9.1** Learn Stacks & Queues
+- [x] **9.2** Prefix, Infix, Postfix Conversion Problems
+- [x] **9.3** Monotonic Stack/Queue Problems
+- [x] **9.4** Implementation Problems
 
 ### **Step 10: Sliding Window & Two Pointers**
 - [ ] **10.1** Medium Problems
