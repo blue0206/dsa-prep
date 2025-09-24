@@ -4,7 +4,7 @@ This repository documents my structured study of Data Structures, Algorithms, an
 
 The primary roadmap is based on [Striver's A2Z DSA Course Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2).
 
-![Progress](https://img.shields.io/badge/Progress-50.8%25_(31%2F61)-red?style=for-the-badge)  
+![Progress](https://img.shields.io/badge/Progress-54%25_(33%2F61)-red?style=for-the-badge)  
 
 ---
 
@@ -69,8 +69,8 @@ The primary roadmap is based on [Striver's A2Z DSA Course Sheet](https://takeufo
 - [x] **9.4** Implementation Problems
 
 ### **Step 10: Sliding Window & Two Pointers**
-- [ ] **10.1** Medium Problems
-- [ ] **10.2** Hard Problems
+- [x] **10.1** Medium Problems
+- [x] **10.2** Hard Problems
 
 ### **Step 11: Heaps**
 - [ ] **11.1** Learning Heaps
