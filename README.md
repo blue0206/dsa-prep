@@ -4,7 +4,7 @@ This repository documents my structured study of Data Structures, Algorithms, an
 
 The primary roadmap is based on [Striver's A2Z DSA Course Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2).
 
-![Progress](https://img.shields.io/badge/Progress-54%25_(33%2F61)-red?style=for-the-badge)  
+![Progress](https://img.shields.io/badge/Progress-55%25_(33%2F60)-red?style=for-the-badge)  
 
 ---
 
@@ -50,7 +50,6 @@ The primary roadmap is based on [Striver's A2Z DSA Course Sheet](https://takeufo
 - [x] **6.3** Medium Problems on Linked List
 - [x] **6.4** Medium Problems on Doubly Linked List
 - [x] **6.5** Hard Problems on Linked List
-- TODO: Implement hash-map using Arrays with division-method.
 
 ### **Step 7: Recursion**
 - [x] **7.1** Recursion Problems (Get a strong hold)
@@ -73,9 +72,8 @@ The primary roadmap is based on [Striver's A2Z DSA Course Sheet](https://takeufo
 - [x] **10.2** Hard Problems
 
 ### **Step 11: Heaps**
-- [ ] **11.1** Learning Heaps
-- [ ] **11.2** Medium Problems
-- [ ] **11.3** Hard Problems
+- [ ] **11.1** Medium Problems
+- [ ] **11.2** Hard Problems
 
 ### **Step 12: Greedy Algorithms**
 - [ ] **12.1** Easy Problems
