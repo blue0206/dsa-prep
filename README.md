@@ -4,7 +4,7 @@ This repository documents my structured study of Data Structures, Algorithms, an
 
 The primary roadmap is based on [Striver's A2Z DSA Course Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2).
 
-![Progress](https://img.shields.io/badge/Progress-58%25_(35%2F60)-red?style=for-the-badge)  
+![Progress](https://img.shields.io/badge/Progress-62%25_(37%2F60)-red?style=for-the-badge)  
 
 ---
 
@@ -76,8 +76,8 @@ The primary roadmap is based on [Striver's A2Z DSA Course Sheet](https://takeufo
 - [x] **11.2** Hard Problems
 
 ### **Step 12: Greedy Algorithms**
-- [ ] **12.1** Easy Problems
-- [ ] **12.2** Medium/Hard Problems
+- [x] **12.1** Easy Problems
+- [x] **12.2** Medium/Hard Problems
 
 ### **Step 13: Binary Trees**
 - [ ] **13.1** Traversals
