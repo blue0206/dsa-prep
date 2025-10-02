@@ -4,7 +4,7 @@ This repository documents my structured study of Data Structures, Algorithms, an
 
 The primary roadmap is based on [Striver's A2Z DSA Course Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2).
 
-![Progress](https://img.shields.io/badge/Progress-67%25_(40%2F60)-red?style=for-the-badge)  
+![Progress](https://img.shields.io/badge/Progress-70%25_(42%2F60)-red?style=for-the-badge)  
 
 ---
 
@@ -85,8 +85,8 @@ The primary roadmap is based on [Striver's A2Z DSA Course Sheet](https://takeufo
 - [x] **13.3** Hard Problems
 
 ### **Step 14: Binary Search Trees (BST)**
-- [ ] **14.1** Concepts
-- [ ] **14.2** Practice Problems
+- [x] **14.1** Concepts
+- [x] **14.2** Practice Problems
 
 ### **Step 15: Graphs**
 - [ ] **15.1** Learning Graphs
