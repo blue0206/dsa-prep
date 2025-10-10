@@ -2,7 +2,16 @@
  * Problem: Directed Graph Cycle
  * Link:
  * https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1
- *
+ */
+
+#include <algorithm>
+#include <iostream>
+#include <queue>
+#include <vector>
+
+using namespace std;
+
+/**
  * Approach: This problem is solved using a Depth-First Search (DFS) with a
  *           3-color system to track the state of each node. A cycle is
  *           detected if we encounter a "back edge" during the traversal.
@@ -19,18 +28,32 @@
  *           we recurse on it. After visiting all neighbors, the node is marked
  *           as fully visited (black).
  *
- * * Time Complexity: O(V + E)
- * * Space Complexity: O(V) for the colors array and recursion stack.
+ * Time Complexity: O(V + E)
+ * Space Complexity: O(V) for the colors array and recursion stack.
  */
-#include <algorithm>
-#include <iostream>
-#include <queue>
-#include <vector>
-
-using namespace std;
-
-bool isCyclic(int V, vector<vector<int>>& edges);
+bool isCyclic(int V, vector<vector<int>>& adj);
 bool dfs(const vector<vector<int>>& adjList, vector<int>& colors, int node);
+
+/**
+ * Approach: This solution uses Breadth-First Search (BFS) and the concept of
+ *           in-degrees, also known as Kahn's algorithm for topological sort.
+ *           A directed graph has a cycle if and only if it does not have a
+ *           valid topological sort.
+ *           1.  Calculate the in-degree (number of incoming edges) for every
+ *               vertex.
+ *           2.  Initialize a queue with all vertices that have an in-degree of
+ *               0.
+ *           3.  While the queue is not empty, dequeue a vertex, add it to the
+ *               sorted list (or simply count it), and decrement the in-degree
+ *               of all its neighbors.
+ *           4.  If a neighbor's in-degree becomes 0, enqueue it.
+ *           5.  If the final count of sorted vertices is not equal to the total
+ *               number of vertices, the graph contains a cycle.
+ *
+ * Time Complexity: O(V + E)
+ * Space Complexity: O(V)
+ */
+bool bfsApproach(int V, vector<vector<int>>& adj);
 
 int main() {
   int t;
@@ -44,7 +67,7 @@ int main() {
     cin >> e;  // Number of edges
 
     vector<vector<int>> adj(v);
-    for (int i = 0; i < v; i++) {
+    for (int i = 0; i < e; i++) {
       int u, v_node;
       cin >> u >> v_node;
       adj[u].emplace_back(v_node);
@@ -61,21 +84,21 @@ int main() {
     }
     cout << "]" << endl;
 
-    cout << "Has Cycle: " << (isCyclic(v, adj) ? "True" : "False") << endl;
+    cout << "Has Cycle (DFS): " << (isCyclic(v, adj) ? "True" : "False")
+         << endl;
+    cout << "Has Cycle (BFS): " << (bfsApproach(v, adj) ? "True" : "False")
+         << endl;
   }
 
   return 0;
 }
 
-bool isCyclic(int V, vector<vector<int>>& edges) {
-  vector<vector<int>> adjList(V);
-  for (int i = 0; i < edges.size(); i++) {
-    adjList[edges[i][0]].emplace_back(edges[i][1]);
-  }
-
+//------------------------------DFS APPROACH------------------------------------
+bool isCyclic(int V, vector<vector<int>>& adj) {
+  // The 'adj' parameter is already an adjacency list from main.
   vector<int> colors(V, 0);
   for (int i = 0; i < V; i++) {
-    if (colors[i] == 0 && dfs(adjList, colors, i)) {
+    if (colors[i] == 0 && dfs(adj, colors, i)) {
       return true;
     }
   }
@@ -97,4 +120,33 @@ bool dfs(const vector<vector<int>>& adjList, vector<int>& colors, int node) {
 
   colors[node] = 2;
   return false;
+}
+
+//------------------------------BFS APPROACH------------------------------------
+bool bfsApproach(int V, vector<vector<int>>& adj) {
+  vector<int> inCount(V, 0);
+  for (int i = 0; i < V; i++) {
+    for (int node : adj[i]) {
+      inCount[node]++;
+    }
+  }
+
+  queue<int> q;
+  for (int i = 0; i < V; i++) {
+    if (inCount[i] == 0) q.push(i);
+  }
+
+  int count = 0;
+  while (!q.empty()) {
+    int node = q.front();
+    q.pop();
+
+    count++;
+    for (int next : adj[node]) {
+      inCount[next]--;
+      if (inCount[next] == 0) q.push(next);
+    }
+  }
+
+  return count != V;
 }
