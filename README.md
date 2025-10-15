@@ -4,7 +4,7 @@ This repository documents my structured study of Data Structures, Algorithms, an
 
 The primary roadmap is based on [Striver's A2Z DSA Course Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2).
 
-![Progress](https://img.shields.io/badge/Progress-75%25_(45%2F60)-red?style=for-the-badge)  
+![Progress](https://img.shields.io/badge/Progress-80%25_(48%2F60)-red?style=for-the-badge)  
 
 ---
 
@@ -92,9 +92,9 @@ The primary roadmap is based on [Striver's A2Z DSA Course Sheet](https://takeufo
 - [x] **15.1** Learning Graphs
 - [x] **15.2** Problems on BFS/DFS
 - [x] **15.3** Topological Sort and Problems
-- [ ] **15.4** Shortest Path Algorithms and Problems
-- [ ] **15.5** Minimum Spanning Tree/Disjoint Set and Problems
-- [ ] **15.6** Other Algorithms
+- [x] **15.4** Shortest Path Algorithms and Problems
+- [x] **15.5** Minimum Spanning Tree/Disjoint Set and Problems
+- [x] **15.6** Other Algorithms
 
 ### **Step 16: Dynamic Programming (DP)**
 - [ ] **16.1** Introduction to DP
