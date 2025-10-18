@@ -10,8 +10,8 @@
  *           - If `str1[i-1] == str2[j-1]`, the common substring is extended:
  *             `dp[i][j] = 1 + dp[i-1][j-1]`.
  *           - If they don't match, the contiguous streak is broken, so
- * `dp[i][j]` is 0. The final answer is the maximum value found anywhere in the
- * DP table.
+ *             `dp[i][j]` is 0. The final answer is the maximum value found
+ *             anywhere in the DP table.
  *
  * Time Complexity: O(N * M)
  * Space Complexity: O(N * M)
@@ -20,6 +20,7 @@
 #include <algorithm>
 #include <iostream>
 #include <numeric>
+#include <string>
 #include <vector>
 
 using namespace std;
