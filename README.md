@@ -4,7 +4,7 @@ This repository documents my structured study of Data Structures, Algorithms, an
 
 The primary roadmap is based on [Striver's A2Z DSA Course Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2).
 
-![Progress](https://img.shields.io/badge/Progress-80%25_(48%2F60)-red?style=for-the-badge)  
+![Progress](https://img.shields.io/badge/Progress-95%25_(57%2F60)-light?style=for-the-badge)  
 
 ---
 
@@ -97,15 +97,15 @@ The primary roadmap is based on [Striver's A2Z DSA Course Sheet](https://takeufo
 - [x] **15.6** Other Algorithms
 
 ### **Step 16: Dynamic Programming (DP)**
-- [ ] **16.1** Introduction to DP
-- [ ] **16.2** 1D DP
-- [ ] **16.3** 2D/3D DP and DP on Grids
-- [ ] **16.4** DP on Subsequences
-- [ ] **16.5** DP on Strings
-- [ ] **16.6** DP on Stocks
-- [ ] **16.7** DP on LIS
-- [ ] **16.8** MCM DP | Partition DP
-- [ ] **16.9** DP on Squares
+- [x] **16.1** Introduction to DP
+- [x] **16.2** 1D DP
+- [x] **16.3** 2D/3D DP and DP on Grids
+- [x] **16.4** DP on Subsequences
+- [x] **16.5** DP on Strings
+- [x] **16.6** DP on Stocks
+- [x] **16.7** DP on LIS
+- [x] **16.8** MCM DP | Partition DP
+- [x] **16.9** DP on Squares
 
 ### **Step 17: Tries**
 - [ ] **17.1** Theory
