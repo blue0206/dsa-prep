@@ -1,10 +1,14 @@
 # My Coding Interview Preparation Journey
 
-This repository documents my structured study of Data Structures, and Algorithms using C++. My goal is to master the fundamentals required for top-tier software engineering roles.
+This repository documents my journey of studying Data Structures and Algorithms using C++. It serves as an archive of my solutions and learnings while following a structured plan to master the fundamentals required for top-tier software engineering roles.
 
-The primary roadmap is based on [Striver's A2Z DSA Course Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2).
+The primary roadmap was based on [Striver's A2Z DSA Course Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2).
 
-![Progress](https://img.shields.io/badge/Progress-100%25_(60%2F60)-light?style=for-the-badge)  
+**Timeline:**
+- **Start Date:** July 24, 2025
+- **Completion Date:** October 31, 2025
+
+![Progress](https://img.shields.io/badge/Progress-100%25-success?style=for-the-badge)
 
 ---
 
@@ -85,8 +89,7 @@ The primary roadmap is based on [Striver's A2Z DSA Course Sheet](https://takeufo
 - [x] **13.3** Hard Problems
 
 ### **Step 14: Binary Search Trees (BST)**
-- [x] **14.1** Concepts
-- [x] **14.2** Practice Problems
+- [x] **14.1** Practice Problems
 
 ### **Step 15: Graphs**
 - [x] **15.1** Learning Graphs
@@ -97,15 +100,14 @@ The primary roadmap is based on [Striver's A2Z DSA Course Sheet](https://takeufo
 - [x] **15.6** Other Algorithms
 
 ### **Step 16: Dynamic Programming (DP)**
-- [x] **16.1** Introduction to DP
-- [x] **16.2** 1D DP
-- [x] **16.3** 2D/3D DP and DP on Grids
-- [x] **16.4** DP on Subsequences
-- [x] **16.5** DP on Strings
-- [x] **16.6** DP on Stocks
-- [x] **16.7** DP on LIS
-- [x] **16.8** MCM DP | Partition DP
-- [x] **16.9** DP on Squares
+- [x] **16.1** 1D DP
+- [x] **16.2** 2D/3D DP and DP on Grids
+- [x] **16.3** DP on Subsequences
+- [x] **16.4** DP on Strings
+- [x] **16.5** DP on Stocks
+- [x] **16.6** DP on LIS
+- [x] **16.7** MCM DP | Partition DP
+- [x] **16.8** DP on Squares
 
 ### **Step 17: Tries**
 - [x] **17.1** Theory
