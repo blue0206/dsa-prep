@@ -1,6 +1,6 @@
 # My Coding Interview Preparation Journey
 
-This repository documents my structured study of Data Structures, Algorithms, and Core CS concepts using C++. My goal is to master the fundamentals required for top-tier software engineering roles.
+This repository documents my structured study of Data Structures, and Algorithms using C++. My goal is to master the fundamentals required for top-tier software engineering roles.
 
 The primary roadmap is based on [Striver's A2Z DSA Course Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2).
 
@@ -115,12 +115,3 @@ The primary roadmap is based on [Striver's A2Z DSA Course Sheet](https://takeufo
 - [x] **18.1** Hard Problems
 
 ---
-
-## Core CS Subjects
-
-In addition to DSA, this repository will contain my notes on core computer science fundamentals.
-
-- [ ] **Operating Systems (OS)**
-- [ ] **Database Management Systems (DBMS)**
-- [ ] **Computer Networks (CN)**
-- [ ] **Object-Oriented Programming (OOPS)**
